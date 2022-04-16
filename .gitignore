@@ -1,0 +1,6 @@
+.DS_Store
+cardene/
+.ipynb_checkpoints/
+*.csv
+*.log
+*.ipynb
