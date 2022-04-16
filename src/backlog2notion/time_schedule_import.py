@@ -8,8 +8,8 @@ file_csv = st.file_uploader("ファイルをアップロードしてください
 password = st.text_input("passwordを入力してください。")
 
 if file_csv and password == "spin":
-    with codecs.open(file_csv.name, "r", "Shift-JIS", "ignore") as file:
-        backlog = pd.read_table(file, delimiter=",")
+    
+    backlog = pd.read_csv(file_csv, encoding="shift-jis")
 
     
     task = backlog["件名"]
