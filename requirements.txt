@@ -1,3 +1,5 @@
 notion-client
 streamlit
 pandas
+deepl
+python-dotenv

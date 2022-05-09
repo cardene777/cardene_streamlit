@@ -4,3 +4,5 @@ cardene/
 *.csv
 *.log
 *.ipynb
+.env
+__pycache__/
